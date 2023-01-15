@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants.ww</title>
+    <script src="time.js"></script>
+    <link rel="stylesheet" href="css/styles copy.css">
+</head>
+<body>
+    
+    <header>
+        <div class="navbar">
+            <div class="wrapper__navbar">
+                <p>Plants.ww</p>
+                <p>Your farm</p>
+            </div>
+        </div>
+    </header>
+
+    <content>
+        <div class="content_left">
+            <div class="wrapper__content_left">
+
+                <p>Сити-фермерство является перспективным направлением в современном сельском хозяйстве. Использование новейших технологий позволяет заниматься выращиванием овощей, ягод и зелени не только в сельской местности, но и в городе. Отдавая предпочтение такому бизнесу, можно добиться значительного сокращения расходов на уход за растениями и доставку продуктов, что, в свою очередь, приведет к снижению себестоимости продукции и сделает ее более привлекательной для конечного потребителя.</p>
+            </div>
+        </div>  
+
+        <div class="content_right">
+            <div class="wrapper__content_right">
+                
+                <div class="cams">
+                    <div class="cam1"></div>
+                    <div class="cam2"></div>
+                </div>
+                <p>С вашей фермой все в порядке!</p>
+                
+                <div class="stats">
+
+                    <div class="wrapper__stats">
+
+                        <div class="wrap__air">
+                            <div class="img">
+                                <img src="icons/fan.svg" alt="svg">
+                            </div>
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <div class="p">
+                                <p>1200rpm</p>
+                            </div>
+                        </div>
+
+                        <div class="wrap__water">
+                            <div class="img">
+                                <img src="icons/kaplya.svg" alt="svg">
+                            </div>
+                            <div class="stats__water">60%</div>
+                            <div class="checkbox">
+                                <div class="slideThree">  
+                                    <input type="checkbox" value="None" id="slideThree" name="check" checked />
+                                    <label for="slideThree"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wrap__wave">
+                            <div class="img">
+                                <img src="icons/waves.svg" alt="svg">
+                            </div>
+                            <div class="stats__waves">60%</div>
+                            <div class="checkbox">
+                                <div class="slideThree1">  
+                                    <input type="checkbox" value="None" id="slideThree1" name="check" checked />
+                                    <label for="slideThree1"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wrap_celsium">
+                            <div class="img">
+                                <img src="icons/thermometer.svg" alt="svg">
+                            </div>
+                            <div class="stats__celsium">18°C</div>
+                            <div class="checkbox">
+                                <div class="slideThree2">  
+                                    <input type="checkbox" value="None" id="slideThree2" name="check" checked />
+                                    <label for="slideThree2"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </content>
+
+    <footer>
+        <div class="footer__wrapper">
+            <div class="phone">
+                <p>Call us +87 887 9264</p>
+            </div>
+            <div class="time">
+                <div id="id_clock"></div>
+                <script>digitalClock();</script>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
